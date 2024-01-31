@@ -25,7 +25,7 @@ This project is a CRUD (Create, Read, Update, Delete) application for managing c
 
 # Customer Management System
 
-Access the application at [http://localhost:8080](http://localhost:8080).
+Access the application at [http://localhost:8080](http://localhost:8080)
 
 ## API Endpoints
 
@@ -35,11 +35,11 @@ Access the application at [http://localhost:8080](http://localhost:8080).
 - **POST /api/customers**: Create a new customer.
 - **PUT /api/customers/{id}**: Update an existing customer.
 - **DELETE /api/customers/{id}**: Delete a customer.
-- **GET /api/customers/paged**: Get customers with pagination (optional).
+- **GET /api/customers/paged**: Get customers with pagination.
 
 ## User Roles
 
-- The system requires authentication with the role of **admin**.
+- The system requires authentication with the role of **ROLE_ADMIN** to see all the database of customer for that User Entity has been created.
 
 ## Testing with Postman
 
@@ -51,7 +51,7 @@ Use the provided API endpoints for testing with Postman:
 - **POST /api/customers**: Create a new customer.
 - **PUT /api/customers/{id}**: Update an existing customer.
 - **DELETE /api/customers/{id}**: Delete a customer.
-- **GET /api/customers/paged**: Get customers with pagination (optional).
+- **GET /api/customers/paged**: Get customers with pagination.
 
 ## Obtain Bearer Token
 
